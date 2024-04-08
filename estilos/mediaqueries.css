@@ -32,12 +32,16 @@ Extra large screens, TV – 1201px, and more
 }
 
 @media screen and (min-width: 1025px) {
+    body{
+        background-image: linear-gradient(to top, #6F34E0, #E03479);
+    }
+
     section#login {
         width: 950px
     }
 
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%
     }
@@ -45,6 +49,10 @@ Extra large screens, TV – 1201px, and more
     section#login > div#formulario{
         float: left;
         width: 50%;
+    }
+    
+    div#formulario > p{
+        font-size: 1.2em;
     }
     
 }
