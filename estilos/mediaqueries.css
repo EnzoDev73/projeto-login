@@ -16,7 +16,8 @@ Extra large screens, TV – 1201px, and more
     }
 
     section#login{
-        width: 80vw;
+        width: 769px;
+        height: 300px;
     }
 
     section#login > div#imagem{
@@ -37,7 +38,8 @@ Extra large screens, TV – 1201px, and more
     }
 
     section#login {
-        width: 950px
+        width: 950px;
+        height: 300px;
     }
 
     section#login > div#imagem {
@@ -52,7 +54,7 @@ Extra large screens, TV – 1201px, and more
     }
     
     div#formulario > p{
-        font-size: 1.2em;
+        font-size: 1em;
     }
     
 }
